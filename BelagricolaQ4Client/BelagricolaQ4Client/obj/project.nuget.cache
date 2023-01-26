@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2mQYsyeEiDpWhPuQPIJ1ox2j/A2QimxLaOqKBSh2xKvcbnhRPskLQuuCim1kDVRF7v8z/mfzsMl5t5y/G8e0gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eduar\\Documents\\Projetos\\BelagricolaQ4Client\\BelagricolaQ4Client\\BelagricolaQ4Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eduar\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

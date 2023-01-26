@@ -1,0 +1,37 @@
+﻿@using System.Data
+@model ClienteContato
+@{
+    ViewData["Title"] = "Editar Cliente-Contato";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Editar Cliente-Contato</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateClienteContato" asp-controller="ClienteContato">
+            <div class="form-group">
+                <label asp-for="ClienteCodigo" class="control-label" hidden></label>
+                <input asp-for="ClienteCodigo" class="form-control" hidden />
+            </div>
+            <div class="form-group">
+                <label asp-for="ContatoCodigo" class="control-label" hidden></label>
+                <input asp-for="ContatoCodigo" class="form-control" hidden />
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoRelacionamento" class="control-label"></label>
+                <input asp-for="TipoRelacionamento" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
