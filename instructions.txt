@@ -1,0 +1,27 @@
+Esta é a solução da questão 4.
+A solução está dividida em 2 projetos: BelagricolaQ4(API) e BelagricolaQ4Client(Aplicação de consumo da API)
+Todos os projetos foram desenvolvidos com o .NET 6.0
+
+Requisitos:
+1º Ter instalado o sql server
+
+BelagricolaQ4:
+2- Observar a ConnectionString em appsettings.json e deixá-la de acordo com a do seu ambiente
+
+3- Há duas opções para criar o banco: 
+
+	Foi usado o Entity Framework para criar o banco de dados e fazer a comunicação com o mesmo. 	Realizar o comando no package manager console para criar a Migration: "Add-Migration InitialDB -Context BelagricolaQ4DBContex"
+
+	Realizar o comando no package manager console para dar um update: "Update-Database -Context BelagricolaQ4DBContex"
+
+	Ou 
+
+	rodar o script.sql que está dentro de /BelagricolaQ4 no seu sql server
+
+4- Para a execução, rodar "dotnet watch run" no console ou iniciar pelo Visual Studio
+
+BelagricolaQ4Client:
+5- Certifique que a API esteja rodando (BelagricolaQ4)
+6- Para a execução, rodar "dotnet watch run" no console ou iniciar pelo Visual Studio
+
+
